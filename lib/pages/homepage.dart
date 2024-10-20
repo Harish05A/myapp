@@ -11,7 +11,7 @@ class homePage extends StatelessWidget {
         title: Text("My Chat App"),
       ),
       body: Container(
-        child: Image.network("https://picsum.photos/250?image=9", height: 10,),
+        child: Image.network("https://picsum.photos/250?image=9", height: 1000,),
       ),
     );
   }
