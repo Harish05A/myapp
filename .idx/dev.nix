@@ -7,6 +7,8 @@
   packages = [
     pkgs.jdk17
     pkgs.unzip
+    pkgs.openssh
+    pkgs.coreutils
   ];
   # Sets environment variables in the workspace
   env = {};
