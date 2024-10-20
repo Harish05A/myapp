@@ -60,7 +60,7 @@ class homePage extends StatelessWidget {
       ),
       bottomNavigationBar: BottomNavigationBar(
         items: [
-          BottomNavigationBarItem(icon: Icon(Icons.home,color: Colors.black,), label: "Home",),
+          BottomNavigationBarItem(icon: Icon(Icons.home,color: Colors.grey,), label: "Home",),
           BottomNavigationBarItem(icon: Icon(Icons.search,color: Colors.black), label: "Search",),
           BottomNavigationBarItem(icon: Icon(Icons.mail,color: Colors.black), label: "Messages"),
           BottomNavigationBarItem(icon: Icon(Icons.settings,color: Colors.black), label: "Profile"),
